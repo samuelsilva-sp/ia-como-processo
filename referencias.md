@@ -31,4 +31,4 @@
 O caso de distribuição de lucros é real, de um escritório contábil, e foi construído com este método. Neste kit ele aparece **sem dados de clientes e sem números**; os exemplos são fictícios.
 
 ---
-Kit organizado por Samuel (IA e Automação). Versão de 25/11/2026. Ferramentas de IA mudam rápido: confira a data antes de seguir algum passo ao pé da letra.
+Kit organizado por Samuel (IA e Automação). **Versão 2.0** do método. Ferramentas de IA mudam rápido: confira se há versão mais nova antes de seguir algum passo ao pé da letra.

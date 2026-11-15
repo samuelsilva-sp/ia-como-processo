@@ -1,6 +1,6 @@
-# IA como processo — kit para começar
+# IA como processo — kit para começar (versão 2.0)
 
-Material prático da palestra **"IA como processo, não só ferramenta"** (25/11/2026).
+Material prático da palestra **"IA como processo, não só ferramenta"**. Esta é a **versão 2.0** do método que uso no dia a dia: a 1.0 tinha três etapas (Research, Plan, Implement); a 2.0 acrescenta **Break** e **Review**.
 
 **Página do kit:** https://samuelsilva-sp.github.io/ia-como-processo/
 **Baixar tudo:** botão verde **Code › Download ZIP**, aqui no GitHub.

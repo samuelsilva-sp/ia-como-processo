@@ -1,4 +1,4 @@
-# CLAUDE.md — Instruções de trabalho
+# CLAUDE.md — Instruções de trabalho (método v2.0)
 
 > **Como usar este modelo:** copie este arquivo para `~/.claude/CLAUDE.md` (vale para todos os seus projetos) ou para a raiz de um projeto com o nome `CLAUDE.md` (vale só para ele). Troque tudo que está entre `[colchetes]`. Apague o que não se aplica.
 > O Claude Code lê este arquivo no começo de **toda** sessão. Pense nele como o onboarding que você daria a um funcionário novo.
