@@ -46,6 +46,16 @@
   .card .ir { margin-top:auto; padding-top:8px; font-weight:700; font-size:14px; letter-spacing:2px; color:var(--accent); }
   .prompt { position:relative; background:var(--panel); border-left:6px solid var(--accent); padding:60px 24px 24px; font-family:'JetBrains Mono', monospace; font-size:15px; line-height:1.6; white-space:pre-wrap; color:var(--paper); }
   .copiar { position:absolute; top:12px; right:12px; font-family:'Archivo', sans-serif; font-weight:700; font-size:13px; background:var(--accent); color:var(--ink); border:0; padding:8px 12px; cursor:pointer; }
+  .setup { border:2px solid var(--accent); padding:28px; margin-bottom:28px; display:flex; flex-direction:column; gap:22px; }
+  .setup-tit { font-size:22px; }
+  .opcoes { display:grid; grid-template-columns:repeat(auto-fit, minmax(280px, 1fr)); gap:20px; }
+  .opcao { background:var(--panel); padding:20px; display:flex; flex-direction:column; gap:12px; }
+  .opcao-tag { font-size:12px; letter-spacing:3px; font-weight:700; color:var(--accent); }
+  .mini { padding-left:20px; display:flex; flex-direction:column; gap:6px; color:var(--soft); font-size:16px; }
+  .mini b { color:var(--paper); }
+  .bt-p { padding:10px 16px; font-size:15px; }
+  .mais { font-size:14px; font-weight:700; margin-left:12px; color:var(--accent); }
+  #instr { max-height:260px; overflow:auto; font-size:13px; }
   .frase { font-family:'Unbounded', Verdana, sans-serif; font-weight:800; font-size:clamp(30px, 6vw, 64px); line-height:1.05; letter-spacing:-1px; }
   footer { padding:40px 0 56px; color:var(--mute); font-size:14px; border-top:2px solid var(--raise); display:flex; flex-wrap:wrap; justify-content:space-between; gap:12px; }
   @media (max-width: 760px) {
@@ -120,6 +130,50 @@ Não proponha solução ainda.</span></div>
     <p class="eyebrow">Trilha 1</p>
     <h2>Sou gestor</h2>
     <p class="sub" style="margin-bottom:28px;">Para quem vai liderar a mudança no escritório, mesmo sem programar.</p>
+
+    <div class="setup">
+      <h3 class="setup-tit">Configure o método na sua IA em 2 minutos <span class="ac">(sem programar)</span></h3>
+      <div class="opcoes">
+        <div class="opcao">
+          <p class="opcao-tag">CHATGPT · GEMINI · CLAUDE</p>
+          <ol class="mini">
+            <li>Crie um <b>Projeto</b> no ChatGPT, um <b>Gem</b> no Gemini ou um <b>Project</b> no Claude.</li>
+            <li>Copie as instruções abaixo e cole nas <b>instruções</b> do projeto.</li>
+            <li>Comece uma conversa com o <a href="#prompt">prompt do Research</a>. Pronto: toda conversa ali segue as 5 etapas.</li>
+          </ol>
+        </div>
+        <div class="opcao">
+          <p class="opcao-tag">APP DO CLAUDE · COMO SKILL</p>
+          <ol class="mini">
+            <li>Baixe a skill <b>metodo-ia-como-processo</b> (arquivo .zip).</li>
+            <li>No Claude: <b>Customize › Skills</b> › + › Upload a skill, e envie o .zip (precisa da execução de código ligada).</li>
+            <li>Peça "vamos usar o método IA como processo" e descreva o processo.</li>
+          </ol>
+          <p><a class="bt sim bt-p" href="https://github.com/samuelsilva-sp/ia-como-processo/raw/main/gestor/skill-app-claude/metodo-ia-como-processo.zip">Baixar a skill (.zip)</a> <a class="mais" href="https://github.com/samuelsilva-sp/ia-como-processo/blob/main/gestor/skill-app-claude/LEIA-ME.md">passo a passo →</a></p>
+        </div>
+      </div>
+      <div class="prompt" id="instr"><button class="copiar" type="button" data-alvo="instr-txt">Copiar instruções</button><span id="instr-txt">Você me ajuda a transformar processos do meu escritório contábil em processos executados por IA e automação, com as decisões importantes ficando com a equipe.
+
+Trabalhe SEMPRE em cinco etapas, nesta ordem, e nunca avance de etapa sem a minha aprovação:
+
+1. RESEARCH — Entender. Não proponha solução. Pergunte e organize: como o processo roda hoje (etapas, quem faz, sistemas, tempo), qual resultado quero, qual indicador mostra que melhorou, o que a IA pode fazer e o que NÃO pode, dados sensíveis (LGPD), riscos e exceções. Termine com "Decisões necessárias": as perguntas que só eu posso responder.
+
+2. PLAN — O contrato. Depois da minha aprovação, descreva o que será construído em linguagem simples: partes da solução, ferramentas e por quê, critério de aceite de cada parte ("o analista consegue X e vê Y"), o que acontece quando algo dá errado, onde um humano aprova, o que fica fora, riscos.
+
+3. BREAK — Tarefas pequenas. Quebre o plano em tarefas que caibam numa sessão, cada uma com objetivo, o que pode ser alterado, o que não pode, critério de aceite e como testar.
+
+4. IMPLEMENT — Uma tarefa por vez. Faça só a tarefa pedida. Ideia nova vai para uma lista de "depois", não para a tarefa.
+
+5. REVIEW — Revise com ceticismo antes de eu aprovar: atende o critério? Quebrou algo que funcionava? Há risco de segurança ou de LGPD? Testou casos estranhos (dado vazio, formato errado)?
+
+Regras:
+- Se algo estiver ambíguo, pergunte. Nunca suponha.
+- Na dúvida, a IA não decide sozinha: o caso vai para uma pessoa.
+- Ação irreversível (transmitir obrigação, enviar a cliente, pagar, apagar) sempre com aprovação humana.
+- Nunca peça nem use CPF, CNPJ ou dados bancários reais nos exemplos.
+- Responda em português do Brasil, de forma direta.</span></div>
+    </div>
+
     <div class="grade">
       <a class="card" href="https://github.com/samuelsilva-sp/ia-como-processo/blob/main/gestor/como-analisar-qualquer-processo.md"><h3>Analise qualquer processo</h3><p>Cinco perguntas para descobrir o que vira automação, o que é da IA e o que fica com a equipe. Uma página.</p><span class="ir">ABRIR →</span></a>
       <a class="card" href="https://github.com/samuelsilva-sp/ia-como-processo/blob/main/gestor/prompts-qualquer-ia.md"><h3>Prompts para qualquer IA</h3><p>As instruções do método para colar num Projeto do ChatGPT, num Gem do Gemini ou num Project do Claude, e um prompt por etapa.</p><span class="ir">ABRIR →</span></a>
