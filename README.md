@@ -13,6 +13,7 @@ Material prático da palestra **"IA como processo, não só ferramenta"**. Esta 
 ```
 comece-aqui.md                 ← os 5 passos
 gestor/                        ← para quem lidera a mudança, sem programar
+  configurar-assistido.md      ← COMECE AQUI: a própria IA configura o método com você
   como-analisar-qualquer-processo.md ← as 5 perguntas, em uma página
   skill-app-claude/            ← o método como skill para o app do Claude (.zip + passo a passo)
   prompts-qualquer-ia.md       ← o método no ChatGPT, Gemini e Claude.ai

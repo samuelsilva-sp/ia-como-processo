@@ -57,6 +57,6 @@ Todo agente precisa de alguém que responde por ele, acompanha o indicador e o m
 
 | Você é… | Vá para |
 |---|---|
-| **Gestor**: quer liderar a mudança, mesmo sem programar | [Analise qualquer processo](gestor/como-analisar-qualquer-processo.md) · [Prompts para qualquer IA](gestor/prompts-qualquer-ia.md) · [Mapa de processo](gestor/mapa-de-processo.md) · [Ficha do agente](gestor/ficha-do-agente.md) · [Ideias por área](gestor/prompts-por-area.md) |
+| **Gestor**: quer liderar a mudança, mesmo sem programar | **[Configure com a ajuda da IA (modo assistido)](gestor/configurar-assistido.md)** · [Analise qualquer processo](gestor/como-analisar-qualquer-processo.md) · [Prompts para qualquer IA](gestor/prompts-qualquer-ia.md) · [Mapa de processo](gestor/mapa-de-processo.md) · [Ficha do agente](gestor/ficha-do-agente.md) · [Ideias por área](gestor/prompts-por-area.md) |
 | **Construtor**: vai montar a solução no Claude Code | [Como instalar](construtor/como-instalar.md) · [CLAUDE.md modelo](construtor/CLAUDE.md-modelo.md) · [Skills do método](construtor/skills/) |
 | **Os dois** | [Checklist de segurança](seguranca/checklist.md) |

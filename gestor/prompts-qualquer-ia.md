@@ -10,6 +10,8 @@ Você pode usar de dois jeitos:
 
 ---
 
+> **Jeito mais fácil:** deixe a própria IA configurar tudo com você, fazendo perguntas: veja o [modo assistido](configurar-assistido.md). Este guia é para quem prefere configurar sozinho.
+>
 > **Usa o app do Claude?** Também dá para instalar o método como **skill**, sem colar instruções: veja [skill-app-claude](skill-app-claude/LEIA-ME.md).
 
 ## Passo 1 — Crie um projeto com instruções fixas
