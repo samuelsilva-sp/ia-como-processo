@@ -18,7 +18,7 @@ gestor/                        ← para quem lidera a mudança, sem programar
   ficha-do-agente.md           ← missão, dono, limites e evolução de cada agente
   prompts-por-area.md          ← ideias em fiscal, contábil, DP, societário e atendimento
 construtor/                    ← para quem vai montar no Claude Code
-  como-instalar.md
+  como-instalar.md             ← o Claude instala por você (com perguntas) ou manual
   CLAUDE.md-modelo.md          ← as regras de trabalho para a IA
   skills/                      ← /research /plan /break /implement /review
 seguranca/

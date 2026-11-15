@@ -2,9 +2,61 @@
 
 Cinco comandos, uma etapa cada: **`/research` → `/plan` → `/break` → `/implement` → `/review`**. Você aprova entre uma etapa e outra.
 
+Há dois jeitos de instalar:
+
+- **Opção A — O Claude instala para você** (mais fácil): você cola um pedido no Claude Code, ele baixa o kit, instala as skills e monta o seu `CLAUDE.md` fazendo perguntas no chat.
+- **Opção B — Manual:** você copia os arquivos para as pastas certas. Siga os passos 1 a 3 mais abaixo.
+
 ## O que você precisa
 - **Claude Code** instalado (aplicativo de desktop, extensão do VS Code ou terminal) e uma conta Claude com acesso a ele.
-- Esta pasta `construtor/` baixada. No GitHub: botão verde **Code › Download ZIP**, depois extraia.
+- Para a opção B: esta pasta `construtor/` baixada. No GitHub: botão verde **Code › Download ZIP**, depois extraia.
+
+---
+
+## Opção A — Deixe o Claude instalar e configurar
+
+1. Abra o Claude Code numa pasta qualquer (pode ser uma pasta vazia, por exemplo `Documentos\metodo-ia`).
+2. Copie o pedido abaixo inteiro e cole no chat.
+3. Responda as perguntas que ele fizer. Ele **mostra o que vai fazer e pede sua confirmação** antes de gravar qualquer arquivo.
+
+```
+Quero instalar no meu Claude Code o método "IA como processo" (versão 2.0), do kit público em
+https://github.com/samuelsilva-sp/ia-como-processo
+
+Faça assim, me mostrando cada passo:
+
+1. Baixe o kit (git clone, ou o ZIP de https://github.com/samuelsilva-sp/ia-como-processo/archive/refs/heads/main.zip)
+   para uma pasta temporária. Leia os arquivos antes de instalar e me diga, em poucas linhas, o que cada skill faz.
+   Não execute nenhum script do kit: são só arquivos de texto para copiar.
+
+2. Me pergunte, uma pergunta por vez (com opções quando fizer sentido):
+   - se quero instalar para TODOS os meus projetos (pasta de usuário ~/.claude) ou só para ESTE projeto (.claude/ desta pasta);
+   - meu nome, meu papel e o nome do escritório/empresa (cidade/UF);
+   - a área (contábil, fiscal, DP, societário, outra) e os sistemas que usamos;
+   - se programo ou não, e qual a stack preferida (ou "não sei", se for o caso);
+   - quem aprova o quê no escritório (ex.: quem aprova transmissão de obrigação).
+
+3. Instale as 5 skills (research, plan, break, implement, review) copiando as pastas de construtor/skills/
+   para a pasta de skills escolhida. Se já existir uma skill com o mesmo nome, me avise e pergunte antes de substituir.
+
+4. Monte o CLAUDE.md a partir de construtor/CLAUDE.md-modelo.md, preenchendo com as minhas respostas
+   e apagando o que não se aplica. Mostre o texto final e peça minha aprovação antes de salvar.
+   Se já existir um CLAUDE.md no destino, faça uma cópia de backup antes e me pergunte se quero juntar ou substituir.
+
+5. Confira a instalação (os 5 arquivos SKILL.md e o CLAUDE.md no lugar certo) e me diga:
+   - o que foi instalado e onde;
+   - que preciso reiniciar o Claude Code para os comandos aparecerem;
+   - um exemplo de primeiro /research para um processo do meu escritório.
+
+Regras: não peça nem grave senhas, chaves ou dados de clientes; não mexa em nada fora das pastas de skills
+e do CLAUDE.md; em caso de dúvida, pergunte.
+```
+
+> Depois de instalado, **reinicie o Claude Code** e digite `/` para ver os comandos.
+
+---
+
+## Opção B — Instalação manual
 
 ## Passo 1 — As skills (os 5 comandos)
 
