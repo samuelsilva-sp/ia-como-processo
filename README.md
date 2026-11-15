@@ -13,6 +13,7 @@ Material prático da palestra **"IA como processo, não só ferramenta"**. Esta 
 ```
 comece-aqui.md                 ← os 5 passos
 gestor/                        ← para quem lidera a mudança, sem programar
+  como-analisar-qualquer-processo.md ← as 5 perguntas, em uma página
   prompts-qualquer-ia.md       ← o método no ChatGPT, Gemini e Claude.ai
   mapa-de-processo.md / .xlsx  ← o que é da IA e o que é do analista
   ficha-do-agente.md           ← missão, dono, limites e evolução de cada agente

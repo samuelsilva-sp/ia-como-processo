@@ -23,7 +23,7 @@ Antes de construir qualquer coisa:
 Sem indicador, você não sabe se a IA ajudou. Percepção não é medição.
 
 ### 3. Separe o que é da IA e o que é do analista
-Use o [mapa de processo](gestor/mapa-de-processo.md). Para cada etapa, decida:
+Comece pelas [5 perguntas](gestor/como-analisar-qualquer-processo.md) e registre no [mapa de processo](gestor/mapa-de-processo.md). Para cada etapa, decida:
 - a IA **executa** sozinha;
 - a IA **apoia** e alguém confere;
 - **só o humano** decide.
@@ -57,6 +57,6 @@ Todo agente precisa de alguém que responde por ele, acompanha o indicador e o m
 
 | Você é… | Vá para |
 |---|---|
-| **Gestor**: quer liderar a mudança, mesmo sem programar | [Prompts para qualquer IA](gestor/prompts-qualquer-ia.md) · [Mapa de processo](gestor/mapa-de-processo.md) · [Ficha do agente](gestor/ficha-do-agente.md) · [Ideias por área](gestor/prompts-por-area.md) |
+| **Gestor**: quer liderar a mudança, mesmo sem programar | [Analise qualquer processo](gestor/como-analisar-qualquer-processo.md) · [Prompts para qualquer IA](gestor/prompts-qualquer-ia.md) · [Mapa de processo](gestor/mapa-de-processo.md) · [Ficha do agente](gestor/ficha-do-agente.md) · [Ideias por área](gestor/prompts-por-area.md) |
 | **Construtor**: vai montar a solução no Claude Code | [Como instalar](construtor/como-instalar.md) · [CLAUDE.md modelo](construtor/CLAUDE.md-modelo.md) · [Skills do método](construtor/skills/) |
 | **Os dois** | [Checklist de segurança](seguranca/checklist.md) |
